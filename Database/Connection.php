@@ -5,7 +5,7 @@
  * Date: 11/23/16
  * Time: 12:22 AM
  */
-namespace bootstrap;
+namespace Database;
 
 interface Connection
 {

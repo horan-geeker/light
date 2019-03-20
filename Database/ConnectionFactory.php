@@ -5,7 +5,7 @@
  * Date: 11/22/16
  * Time: 9:52 PM
  */
-namespace bootstrap;
+namespace Database;
 
 class ConnectionFactory
 {

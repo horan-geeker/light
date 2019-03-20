@@ -1,6 +1,6 @@
 <?php
 
-use bootstrap\Route;
+use Routing\Route;
 
 Route::get('/','IndexController@index');
 

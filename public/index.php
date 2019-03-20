@@ -1,4 +1,7 @@
 <?php
+
+use bootstrap\App;
+
 /**
  * Created by PhpStorm.
  * User: hejunwei
@@ -20,4 +23,8 @@ require_once DIR . "/autoload.php";
 
 spl_autoload_register("Loader::autoload");
 
-require_once '../routes.php';
+$app = new App();
+
+$response = $app->handle();
+
+$response->send();

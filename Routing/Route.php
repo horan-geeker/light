@@ -5,7 +5,8 @@
  * Date: 2/3/17
  * Time: 7:19 PM
  */
-namespace bootstrap;
+
+namespace Routing;
 
 class Route
 {

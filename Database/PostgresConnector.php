@@ -5,7 +5,7 @@
  * Date: 11/22/16
  * Time: 11:26 PM
  */
-namespace bootstrap;
+namespace Database;
 
 class PostgresConnector implements Connection
 {
